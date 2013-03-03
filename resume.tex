@@ -12,6 +12,7 @@
 %-----------------------------------------------------------
 \usepackage[empty]{fullpage}
 \usepackage{color}
+\usepackage{hyperref}
 \definecolor{mygrey}{gray}{0.80}
 \raggedbottom
 \raggedright
@@ -51,9 +52,9 @@
 %-----------------------------------------------------------
 % Header
 \begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
-	\textbf{\large Bret A. Comnes}  &  \\
-	(707) 633-4552 & bac42@humboldt.edu \\
-	Ashland, OR & bcomnes.github.com \\
+	\textbf{\large Bret Augustine Comnes}  & \textbf{Mobile:} (707) 633-4552 \\
+	1030 NW 12th Ave Apt 123 &  \textbf{Email:} \href{mailto:bcomnes@pdx.edu}{\nolinkurl{bcomnes@pdx.edu}} \\
+	Portland OR, 97209 & \textbf{Web:} \url{http://web.pdx.edu/~bcomnes} \\
 \end{tabular*}
 \\
 
@@ -63,43 +64,28 @@
 % Education
 \resheading{Education}
 \begin{itemize}
-
+    
+    % PSU
 	\item
-		\ressubheading{Bachelor of Science in Physics}{August 2006 - May 2011}{Humboldt State University (HSU)}{Arcata, CA}
+		\ressubheading{PhD in Applied Physics}{September 2012 - Current}{Portland State University}{Portland, OR}
 		\begin{itemize}
-			\resitem{Physics Coursework: Thermodynamics (Schroeder), Analytical Mechanics (Thornton), Electricity \& Magnetism (Griffiths), Quantum Mechanics (Liboff, Griffiths), Optics (Hecht), Physics of Stars \& Planets, Galaxies \& Cosmology, Electronic Instrumentation (Horowitz, Hill), Scientific Programming}
-			\resitem{Mathematics Coursework: Partial Differential Equations, Vector Calculus, Linear Algebra}
+			\resitem{Courses: Quantum Mechanics 617-618}
+			\resitem{TA: General Physics 202, Experimental Physics 315}
 		\end{itemize}
 	
-\end{itemize}
-
-%-----------------------------------------------------------
-% Research Experience
-\resheading{Research Experience}
-\begin{itemize}
-
-% Gravlab
-	\item
-		\ressubheading{Undergraduate Research Assistant}{May 2009 - September 2011}{HSU Gravitational Research Laboratory}{Arcata, CA}
-		\begin{itemize}
-			\resitem{Assisted with Professor C.D.\ Hoyle's research to test the Weak Equivalence Principal and gravitational inverse-square law at sub-millimeter distance scales.}
-			\resitem{Responsibilities included research and development of lab instrumentation,  custom data acquisition and automation applications, electronic circuit design, optical instrumentation and signal processing systems for use inside of the experiment's vacuum chamber.}
-			\resitem{Managed the scheduling and collaboration tools used to organize the students participating in the project.}
-		\end{itemize}
-
-% Arecibo
-	\item
-		\ressubheading{Undergraduate Researcher}{November 2009}{Undergraduate Project at the Arecibo Observatory}{Arecibo, Puerto Rico}
-		\begin{itemize}
-			\resitem{Participated as an undergraduate researcher in a funded trip to the Arecibo Observatory to assist with observations for the ALFALFA survey.}
-			\resitem{Responsibilities included operating the one of the world's largest radio telescopes, data analysis using IDL and working live on scheduled research equipment.}
-	\end{itemize}
+	% HSU
+    \item
+    	\ressubheading{Bachelor of Science in Physics}{August 2006 - May 2011}{Humboldt State University (HSU)}{Arcata, CA}
+    	\begin{itemize}
+    		\resitem{Physics Coursework: Thermodynamics (Schroeder), Analytical Mechanics (Thornton), Electricity \& Magnetism (Griffiths), Quantum Mechanics (Liboff, Griffiths), Optics (Hecht), Physics of Stars \& Planets, Galaxies \& Cosmology, Electronic Instrumentation (Horowitz, Hill), Scientific Programming}
+    		\resitem{Mathematics Coursework: Partial Differential Equations, Vector Calculus, Linear Algebra}
+    	\end{itemize}
 	
 \end{itemize}
 
 %-----------------------------------------------------------
 % Publications
-\resheading{Publications}
+\resheading{Publications \& Talks}
 \begin{itemize}
 	
 	% NCUR Paper
@@ -109,13 +95,73 @@
 			\resitem{Peer reviewed paper to accompany a presentation given at the 2011 National Conference of Undergraduate Research.}
 		\end{itemize}
 		
+   % HSU Talk
+   \item
+   	\ressubheading{``Studying the Weak Equivalence Principal Below 50 Microns"}{2011}{Humboldt State University Physics Seminar}{Arcata, CA}
+   	\begin{itemize}
+   		\resitem{Presented research results from HSU's gravitational research lab at the HSU physics department semi-weekly seminar.}
+   	\end{itemize}
+   
 \end{itemize}
 
 %-----------------------------------------------------------
-% Recent Work Experience
-\resheading{Recent Work Experience}
+% Research Experience
+\resheading{Research Experience}
 \begin{itemize}
+
+% Nanogroup
+	\item
+		\ressubheading{PSU Nano-Optics and Structures Lab}{September 2012 - Current}{Research Assistant to Dr.\ Andres La Rosa}{Portland, OR}
+		\begin{itemize}
+			\resitem{Implementing a digital image accusation system for a vintage Hitachi S4160 SEM.}
+			\resitem{Investigating novel current limited tip etching processes for use in SPM probe fabrication.}
+		\end{itemize}
+
+% Gravlab
+	\item
+		\ressubheading{HSU Gravitational Research Laboratory}{May 2009 - September 2011}{Research Assistant to Dr.\ C\@.D.\ Hoyle}{Arcata, CA}
+		\begin{itemize}
+			\resitem{Assisted research to test the Weak Equivalence Principal and gravitational inverse-square law at sub-millimeter distance scales.}
+			\resitem{Responsibilities included research and development of lab instrumentation, homebrew sub-millimeter position sensors and data acquisition and automation applications, electronic circuit design, optical instrumentation and signal processing systems for use inside of the experiment's vacuum chamber.}
+			\resitem{Managed the scheduling and collaboration tools and Git repository used to organize the students participating in the project.}
+		\end{itemize}
+
+% Arecibo
+	\item
+		\ressubheading{The Arecibo Legacy Fast ALFA Survey}{November 2009}{Research Assistant to Dr.\ David Kornreich}{Arecibo, Puerto Rico}
+		\begin{itemize}
+			\resitem{Participated as an undergraduate researcher at the National Astronomy and Ionosphere Center (Arecibo Observatory) to assist with observations for the ALFALFA survey.}
+			\resitem{Responsibilities included operating the one of the world's largest radio telescopes, data analysis using IDL and working live on scheduled research equipment.}
+	\end{itemize}
 	
+\end{itemize}
+
+%-----------------------------------------------------------
+\pagebreak[3]
+%-----------------------------------------------------------
+
+
+%-----------------------------------------------------------
+% Recent Work Experience
+\resheading{Relevant Work Experience}
+\begin{itemize}
+
+% Teachers Assistant
+	\item
+		\ressubheading{Teachers Assistant}{September 2012 - Current}{Portland State University}{Portland, OR}
+		\begin{itemize}
+			\resitem{First quarter teaching PSU's General Physics 202 course.}
+			\resitem{Developed two new labs covering micro controllers using Arduino and FPGAs using a Digilent Nexys 3 FPGA card for PSU's Experimental Physics 315 course.}
+		\end{itemize}
+		
+% Textbook Consultant
+	\item
+		\ressubheading{Texbook Development Consultant}{January 2012 - July 2012}{Cardinal TS}{Telecommute}
+		\begin{itemize}
+			\resitem{Provided consultation on mathematics and content interpretation to a team of developers creating a cross platform, web application calculus textbook prototype under contract of Wiley Publishing.}
+			\resitem{Developed javascript based mathematics demonstrations with no prior JS experience.}
+		\end{itemize}
+
 % Grading
 	\item
 		\ressubheading{Academic Assistant}{January 2009 - May 2011}{Humboldt State University}{Arcata, CA}
@@ -124,39 +170,7 @@
 			\resitem{Responsibilities included understanding the range of solutions to a given problem, applying a grading rubric to the work, entering grades into a database, managing a course wiki and following privacy guidelines.}
 		\end{itemize}
 	
-% Arcata Scoop
-	\item
-		\ressubheading{Premium Food and Retail Service}{June 2009 - September  2011}{Arcata Scoop (Premium Organic Ice Creams)}{Arcata, CA}
-		\begin{itemize}
-			\resitem{Responsibilities included opening and closing of the store, filling customer orders, maintaining a balanced register, securing cash receipts, training new employees and providing customer service and information.}
-		\end{itemize}
 
-%-----------------------------------------------------------
-\pagebreak[0]
-%-----------------------------------------------------------
-% Rock Wall
-	\item
-		\ressubheading{Climbing Wall Attendant}{August 2007 - June 2009}{HSU Student Recreation Center}{Arcata, CA}
-		\begin{itemize}
-			\resitem{Attended to the operation and safety of the largest indoor climbing wall in Humboldt County.}
-			\resitem{Responsibilities included assessing the safety training and skills of the gym's patrons in order to maintain a safe climbing environment, hardware maintenance and rental management and route setting.}
-		\end{itemize}
-
-% State Parks
-	\item
-		\ressubheading{Park Aide}{Summer 2008}{California State Parks}{Lake Tahoe, CA}
-		\begin{itemize}
-			\resitem{Issued park day passes and campground permits and provided information and rules to the D.L.\ Bliss State Park visitors.}
-			\resitem{Responsibilities included general rule enforcement; campground management; and the designing, organizing and presentation of the park's Junior Ranger program.}
-		\end{itemize}
-
-% Marin Shakespear
-	\item
- 		\ressubheading{Assistant Electrician}{Summers 2002 - 2005}{Marin Shakespeare Company}{San Rafael, CA}
- 		\begin{itemize}
- 			\resitem{Designed and constructed the outdoor theater lighting and sound systems at Dominican University's 500+ seat Forest Meadows amphitheater.}
- 			\resitem{Assisted with set construction, painting and light cue programming.}
- 		\end{itemize}
 
 \end{itemize}
 
@@ -168,18 +182,18 @@
 % Languages
 	\item[Operating Systems, Languages, \& Applications]\-
 	\begin{itemize}
-		\resitem{Proficient: Mathematica, LabVIEW, Windows, Mac OS X}
-		\resitem{Knowledgeable: \LaTeX, Git, Microsoft Office, SolidWorks, Linux}
-		\resitem{Familiar: Assembly, C, Matlab, Arduino, VISA/GPIB, Apache, Python, Ruby, HTML/CSS}
+		\resitem{\textbf{Proficient:} Mathematica, LabVIEW, Windows, OS X, Unix, Git, Arduino}
+		\resitem{\textbf{Knowledgeable:} \LaTeX, MS Office, SolidWorks, COMSOL, HTML/CSS/JS}
+		\resitem{\textbf{Familiar:} Assembly, C, Matlab, VISA/GPIB, Python, Ruby, Haskell, sh, SVN, SQL, Vi, Emacs}
 	\end{itemize}
 
 % Lab Skills
 	\item[Lab Skills:]
-Oscilloscopes, function generators, lock-in amplifiers, National Instruments hardware, optical systems, lasers, motion control, instrumentation \& part design, PCB \& circuit design, capacitive sensors, piezo electric actuators, general workshop equipment.
+Oscilloscopes, function generators, lock-in amplifiers, National Instruments hardware, optical systems, lasers, motion control, instrumentation \& design, PCB \& circuit design, capacitive sensors, piezo electrics, general workshop equipment, FPGAs \& embedded systems.
 
 % Miscellaneous
 	\item[Miscellaneous:]
-Demonstrated proficiency with public communication skills.  Excellent troubleshooting and debugging skills.  Adept at learning new languages and application suites. Local and remote collaborative skills. Effective at teaching others.
+Demonstrated proficiency with public communication skills.  Excellent troubleshooting and debugging skills.  Adept at rapidly learning new languages and application suites. Local and remote collaborative skills. Excels at teaching others.
 
 \end{description}
 
@@ -191,15 +205,9 @@ Demonstrated proficiency with public communication skills.  Excellent troublesho
 Applied physics, optics, QM, metrology, microscopy, gravity, embedded systems, computer science.
 
 	\item[Personal:]
-Rock climbing, bicycles, photography, electronic music, electric bass, radio DJing, web development.
+Programming, web technologies, bicycles, climbing, photography, music, radio.
 \end{description}
 
-%-----------------------------------------------------------
-% References
-\resheading{References}
-\begin{itemize}
-	\resitem{Available Upon Request}
-\end{itemize}
 %-----------------------------------------------------------
 % End
 
