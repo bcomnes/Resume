@@ -3,8 +3,8 @@
 % (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
 % (c) 2003 David J. Grant <dgrant@ieee.org> http://www.davidgrant.ca
 % (c) 2007 Todd C. Miller <Todd.Miller@courtesan.com> http://www.courtesan.com/todd
-% (c) 2014 Bret A. Comnes <bac42@humboldt.edu> http://bcomnes.github.com (Original Template from above authors)
-%
+% (c) 2014 Bret A. Comnes <bac42@humboldt.edu> http://bcomnes.github.com 
+% 
 %This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
 
 \documentclass[letterpaper,11pt]{article}
@@ -68,81 +68,93 @@ urlcolor=blue
 \vspace{0.1in}
 
 %-----------------------------------------------------------
-% Education
-\resheading{Education}
-\begin{itemize}
-% PSU
-\item
-\ressubheading
-{Masters in Applied Physics (In Progress)}
-{September 2012 - December 2014}
-{Portland State University}
-{Portland, OR}	
-
-% HSU
-\item
-\ressubheading
-{Bachelor of Science in Physics}
-{August 2006 - May 2011}
-{Humboldt State University}
-{Arcata, CA}
-\end{itemize}
-
-%-----------------------------------------------------------
 % Experience
 \resheading{Experience}
 \begin{itemize}
-
-%ARC OIT
+  
+%Urban Airship
 \item
 \ressubheading
-{Academic \& Research Computing Systems Administrator \& Programmer}
-{May 2013 - Present}
-{PSU Office of Information Technology}
+{Technical Support Engineer}
+{April 2015 - Present}
+{Urban Airship}
+{Portland, OR}
+\begin{itemize}
+    \resitem
+    {Support Urban Airships customers ranging from mobile developers to marketers.}
+    \resitem
+    {Custom mailing software for sending personalized emails to customers in Node.js}
+\end{itemize}
+%ARC Dev
+\item
+\ressubheading
+{Web \& Systems Developer}
+{May 2014 - April 2015}
+{PSU Office of Information Technology - Academic \& Research Computing}
 {Portland, OR}
 \begin{itemize}
     \resitem
     {Web applications and systems programming with Python and Django.}
     \resitem
-    {Responsible for building, automating, administering and monitoring PSU's research servers and Linux Clusters.}
+    {Implemented and designed a Github style email correspondence bridge for ARCs ticketing system.}
     \resitem
-    {Launched a successful user support documentation website to orient new students and faculty to the available research systems.}
+    {Implemented user tracking and notification system for ARC's research systems.}
+    \resitem
+    {Writing package that tracks MySQL and Postgres database activity of ARCs hosted projects.}
+\end{itemize}
+
+%ARC Ops
+\item
+\ressubheading
+{Systems Administrator}
+{May 2013 - Present}
+{PSU Office of Information Technology - Academic \& Research Computing}
+{Portland, OR}
+\begin{itemize}
+    \resitem
+    {Responsible for building, automating and monitoring PSU's research servers and Linux Clusters.}
+    \resitem
+    {Initiated efforts to automate cluster deployment and management using configuration management.}
+    \resitem
+    {Launched a successful user support documentation website to orient new users on the available research systems.}
+    \resitem
+    {Trained and introduced new users to ARCs resources and shared unix computing environments.}
 \end{itemize}
 
 % Erik's Lab
 \item
 \ressubheading
-{Research Assistant to Dr.\ Erik S\'anchez}
-{May 2013 - Present}
+{Research Assistant to Dr. Erik Sanchez}
+{May 2013 - April 2015}
 {PSU S\'anchez Nano Development Lab}
 {Portland, OR}
 \begin{itemize}
     \resitem
-    {Put a remotely operable Scanning Electron Microscope online by interfacing a vintage Jeol JXA-6400 SEM and custom image scanning software with modern browser APIs like Websockets and WebRTC.}
+    {Wrote custom control software and a web application that enabled remote viewing and operation of a Scanning Electron Microscope over the internet using Web Sockets and WebRTC.}
 \end{itemize}
 
 % Teachers Assistant
 \item
 \ressubheading
 {Lab Instructor \& Teachers Assistant}
-{September 2012 - Present}
+{September 2012 - December 2014}
 {Portland State University}
 {Portland, OR}
 \begin{itemize}
 	\resitem
     {Instructed PSU's General Physics Labs and assisted in the upper division Experimental Physics Labs.}
 	\resitem
-    {Developed two novel labs on the use of microcontrollers and FPGAs covering basic concepts to advanced topics like PID controllers.}
+    {Developed two novel labs on the use of microcontrollers and FPGAs covering basic concepts to advanced topics like PID control theory.}
 \end{itemize}
 
 % Textbook Consultant
 \item
-\ressubheading{Texbook Development Consultant}{January 2012 - July 2012}{Cardinal TS}{Remote in Ashland, OR}
+\ressubheading{Textbook Development Consultant}{January 2012 - July 2012}{Cardinal TS}{Remote in Ashland, OR}
 \begin{itemize}
     \resitem
-    {Provided consultation on mathematics and content interpretation to a team of developers creating a cross platform, web application calculus textbook prototype under contract of Wiley Publishing.}
+    {Front end Javascript development for a interactive calculus textbook website for Wiley Publishing.}
 	\resitem
-    {Developed cross platform browser based mathematics demonstrations and visulizations.}
+    {Provided conceptual content and calculus interpretation for other members of the development team.}
 \end{itemize}
 
 % Gravlab
@@ -154,9 +166,7 @@ urlcolor=blue
 {Arcata, CA}
 \begin{itemize}
     \resitem
-    {Assisted research to test the Weak Equivalence Principal and gravitational inverse-square law at sub-millimeter distance scales.}
-    \resitem
-    {Designed and machined custom experimental instruments and developed the lab's data collection, automation and analysis software.}
+    {Designed and machined custom experimental instruments and developed the lab's data collection, automation and analysis software to study the gravitational inverse-square law at sub-millimeter distance scales.}
 \end{itemize}
 
 % Arecibo
@@ -168,153 +178,45 @@ urlcolor=blue
 {Arecibo, Puerto Rico}
 \begin{itemize}
     \resitem
-    {Trained and operated one of the worlds largest radio telescopes and analyzed the collected data using custom IDL software packages.}
+    {Trained and operated one of the worlds largest radio telescopes and analyzed the collected data searching for previously undiscovered galaxies.}
 \end{itemize}
 
-% Grading
-\item
-\ressubheading
-{Academic Assistant}
-{January 2009 - May 2011}
-{Humboldt State University}
-{Arcata, CA}
-\begin{itemize}
-    \resitem{Graded student homework and lab write-ups for an introductory electronics course for $\sim$60 undergraduate physics and engineering students.}
-\end{itemize}
+%% Grading
+%\item
+%\ressubheading
+%{Academic Assistant}
+%{January 2009 - May 2011}
+%{Humboldt State University}
+%{Arcata, CA}
+%\begin{itemize}
+%    \resitem{Graded student homework and lab write-ups for an introductory electronics course for $\sim$60 undergraduate physics and engineering students.}
+%\end{itemize}
 
 \end{itemize}
 
 \pagebreak[4]
 
 %-----------------------------------------------------------
-% Publications
-\resheading{Publications, Talks \& Community Involvement and Leadership}
+% Education
+\resheading{Education}
 \begin{itemize}
-	
-% Social WG
+% PSU
 \item
 \ressubheading
-{W3C Social Web Working Group}
-{July 2014 - Present}
-{Invited Expert}
-{Remote}
-
-% Code for portland
-\item
-\ressubheading
-{Code for Portland}
-{March 2014 - Present}
-{Organizer \& Volunteer}
-{Portland, OR}
-
-% UO WebRTC thint
-\item
-\ressubheading
-{``Development of an Online Teaching Field Emission SEM''}
-{February 2014}
-{Proceedings of the Oregon Academy of Science}
-{Eugene, OR}
-
-% Homebrew Websi te Club
-\item
-\ressubheading
-{Homebrew Website Club}
-{December 2013 - Present}
-{Organizer}
-{Portland, OR}
-
-% Puppet
-
-\item
-\ressubheading
-{Bug Triage-A-Thon Winner}
-{October 2013}
-{Puppet Labs}
-{Portland, OR}
-
-% WebRTC Camp
-\item
-\ressubheading
-{``Remote Operation of a Scanning Electron Microscope using WebRTC''}
-{October 2013}
-{WebRTC Camp}
-{Portland, OR}
-
-% OSFW3C
-\item
-\ressubheading
-{``Distributed Social Web Interactions with Semi-Static Websites''}
-{August 2013}
-{OSFW3C Workshop on Social Standards: The Future of Business}
-{San Francisco, CA}
-
-% IndieWeb
-\item
-\ressubheading
-{IndieWebCamp}
-{2013,2014 - Present}
-{Participant and Organizer}
-{Portland, OR}
-
-% MFS
-\item
-\ressubheading
-{Manufacturing and Fabrication for the Sciences Club}
-{2013 - December 2014}
-{Officer}
+{Masters in Applied Physics}
+{September 2012 - April 2015}
 {Portland State University}
+{(On leave) Portland, OR}	
 
-% NCUR Paper
+% HSU
 \item
 \ressubheading
-{``Sub-millimeter Positioning and Sensing for Short-Range Gravity Tests"}
-{2011}
-{Proceedings of the 25th National Conference on Undergraduate Research (NCUR)}
-{Ithaca, NY}
-
-% HSU Talk
-\item
-\ressubheading
-{``Studying the Weak Equivalence Principal Below 50 Microns"}
-{2011}
-{Humboldt State University Physics Seminar}
+{Bachelor of Science in Physics}
+{August 2006 - May 2011}
+{Humboldt State University}
 {Arcata, CA}
 \end{itemize}
 
-%-----------------------------------------------------------
-% Open Source
-\resheading{Recent Open Source Contributions}
-\begin{itemize}
-
-% SEMterface
-\item
-\ressubheading
-{SEMterface}
-{2013 - 2014}
-{\href{https://github.com/SEMterface}{github.com/SEMterface}}
-{Node.js}
-\begin{itemize}
-    \resitem{Enables realtime remote operation and training of a JOEL-6400 Scanning Electron Microscope.}
-	\resitem{Plugin free for the user using a Websockets and WebRTC enabled browser}
-\end{itemize}
-
-% Gitpub
-\item
-\ressubheading
-{Gitpub}
-{2014}
-{\href{https://github.com/bcomnes/gitpub}{github.com/bcomnes/gitpub}}
-{Node.js}
-\begin{itemize}
-    \resitem{A publishing endpoint for low maintenance static content websites stored in Git.}
-	\resitem{Provides an interface for backfeeding of silo content (i.e.\ twitter) to a personal static website.}
-\end{itemize}
-
-
-\end{itemize}
-\begin{description}
-\item[Github:] See \url{https://github.com/bcomnes} for more contributions.
-\end{description}
 %-----------------------------------------------------------
 % Skills
 \resheading{Skills}
@@ -324,17 +226,145 @@ urlcolor=blue
 \item[Operating Systems, Languages, \& Applications]\-
 \begin{itemize}
     \resitem
-    {\textbf{Fluent:} Windows, OS X, Linux, Javascript, Python, Mathematica, LabVIEW, Git, \LaTeX, HTML}
+    {\textbf{Fluent:} Linux/Unix, OS X, Windows, Javascript/Node/npm, Python/Django, Git/Github, Travis-CI, HTML/CSS/SCSS, Ansible, Mathematica, LabVIEW, \LaTeX}
     \resitem
-    {\textbf{Almost There:} C, Ruby, bash, Assembly, MySQL, SQLite, Vagrant, autotools, CSS}
+    {\textbf{Familiar:} Go, Ruby/Rails, Flask, atom-shell, sh, MySQL, SQLite, PostgreSQL, Assembly, C/autotools, regex, LevelDB}
     \resitem
-    {\textbf{Just Getting Started:} Haskell, Go, Rust, Qt, Postgres, MongoDB, Puppet, Ansible}
+    {\textbf{On the Radar:} Haskell, Rust, Puppet, Docker/Rocket, NixOS}
 \end{itemize}
 
 % Miscellaneous
-\item[Miscellaneous:]
-Demonstrated proficiency with public communication skills.  Exceptional troubleshooting and debugging skills.  Adept at rapidly learning new languages and application suites. Local and remote collaborative skills and methods. Excels at teaching and working with others.  Goal driven.  Positive.
+\item[Character:]
+Demonstrated proficiency with public communication skills.  Exceptional troubleshooting and debugging skills.  Adept at rapidly learning new programming languages and tools. Local and remote collaborative skills and methods. Excels at teaching and working with others.  Goal driven.  Positive.
 
+\end{description}
+
+
+%-----------------------------------------------------------
+% Publications
+\resheading{Publications, Talks, Community Involvement \& Leadership}
+\begin{itemize}
+	
+% Social WG
+\item
+\ressubheading
+{W3C Social Web Working Group}
+{July 2014 - June 2015}
+{Invited Expert}
+{}
+
+% Code for portland
+\item
+\ressubheading
+{Code for Portland}
+{March 2014 - Present}
+{Organizer \& Volunteer}
+{}
+
+% UO WebRTC thint
+\item
+\ressubheading
+{``Development of an Online Teaching Field Emission SEM''}
+{February 2014}
+{Proceedings of the Oregon Academy of Science}
+{}
+
+% Homebrew Websi te Club
+\item
+\ressubheading
+{Homebrew Website Club}
+{December 2013 - Present}
+{Organizer}
+{}
+
+% Puppet
+%
+%\item
+%\ressubheading
+%{Bug Triage-A-Thon}
+%{October 2013}
+%{Puppet Labs}
+%{}
+
+% WebRTC Camp
+\item
+\ressubheading
+{``Remote Operation of a Scanning Electron Microscope using WebRTC''}
+{October 2013}
+{WebRTC Camp}
+{}
+
+% OSFW3C
+\item
+\ressubheading
+{``Distributed Social Web Interactions with Semi-Static Websites''}
+{August 2013}
+{OSFW3C Workshop on Social Standards: The Future of Business}
+{}
+
+% IndieWeb
+\item
+\ressubheading
+{IndieWebCamp}
+{2013,2014 - Present}
+{Participant and Organizer}
+{}
+
+% MFS
+\item
+\ressubheading
+{PSU Manufacturing and Fabrication for the Sciences Club}
+{2013 - December 2014}
+{Officer}
+{}
+
+% NCUR Paper
+\item
+\ressubheading
+{``Sub-millimeter Positioning and Sensing for Short-Range Gravity Tests"}
+{2011}
+{Proceedings of the 25th National Conference on Undergraduate Research (NCUR)}
+{}
+
+% HSU Talk
+%%\item
+%%\ressubheading
+%%{``Studying the Weak Equivalence Principal Below 50 Microns"}
+%%{2011}
+%%{Humboldt State University Physics Seminar}
+%%{}
+\end{itemize}
+
+%-----------------------------------------------------------
+% Open Source
+\resheading{Recent Open Source Contributions}
+\begin{itemize}
+\item
+\ressubheading
+{Node Learnbook}
+{E-Book}
+{\href{https://github.com/bcomnes/node-learnbook}{github.com/bcomnes/node-learnbook}}
+{}
+\begin{itemize}
+  \resitem
+  {A book about how and where to learn about node and javascript}
+\end{itemize}
+% SEMterface
+\item
+\ressubheading
+{SEMterface}
+%{2013 - 2014}
+{Node.js}
+{\href{https://github.com/SEMterface}{github.com/SEMterface}}
+{}
+\begin{itemize}
+    \resitem{Enables realtime remote operation of a JEOL-6400 Scanning Electron Microscope.}
+	\resitem{Custom web application uses WebRTC and Web Sockets to provide realtime interactions with the microscope.}
+\end{itemize}
+
+\end{itemize}
+\begin{description}
+\item[Github:] See \url{https://github.com/bcomnes} for more contributions!
 \end{description}
 
 %-----------------------------------------------------------
