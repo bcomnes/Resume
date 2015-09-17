@@ -5,7 +5,7 @@
 % (c) 2007 Todd C. Miller <Todd.Miller@courtesan.com> http://www.courtesan.com/todd
 % (c) 2014 Bret A. Comnes <bac42@humboldt.edu> http://bcomnes.github.com 
 % 
-%This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+%This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.}
 
 \documentclass[letterpaper,11pt]{article}
 
@@ -81,7 +81,7 @@ urlcolor=blue
 {Portland, OR}
 \begin{itemize}
   \resitem
-  {Rapid development and prototyping of next-generation in vehicle infotainment software.}
+  {Rapid infotainment prototype development using Node.js/express.}
 \end{itemize}
 %Urban Airship
 \item
@@ -237,16 +237,14 @@ urlcolor=blue
 \item[Operating Systems, Languages, \& Applications]\-
 \begin{itemize}
     \resitem
-    {\textbf{Fluent:} Linux/Unix, OS X, Windows, Javascript/Node/npm, Python/Django, Git/Github, Travis-CI, HTML/CSS/SCSS, Ansible, Mathematica, LabVIEW, \LaTeX}
+    {\textbf{Fluent:} Linux/Unix, OS X, Windows, Node flavored Javascript, Python, Git/Github, HTML, CSS, Ansible, systemd, Mathematica}
     \resitem
-    {\textbf{Familiar:} Go, Ruby/Rails, Flask, electron, sh, MySQL, SQLite, PostgreSQL, Assembly, C/autotools, regex, LevelDB}
-    \resitem
-    {\textbf{On the Radar:} Haskell, Rust, Puppet, Docker/Rocket, NixOS}
+    {\textbf{Familiar:} Go, Ruby, electron, bash, *SQL, C/autotools, regex, LevelDB, backbone.js, websockets, WebRTC, Oauth}
 \end{itemize}
 
 % Miscellaneous
 \item[Character:]
-Demonstrated proficiency with public communication skills.  Exceptional troubleshooting and debugging skills.  Adept at rapidly learning new programming languages and tools. Local and remote collaborative skills and methods. Excels at teaching and working with others.  Goal driven.  Positive.
+Demonstrated proficiency with public communication skills.  Exceptional troubleshooting and debugging skills.  Adept at rapidly learning new programming languages and tools. Expert at remote/distributed collaboration and open source development. Excels at teaching and learning with others.  Goal driven.  Positive.
 
 \end{description}
 
@@ -255,14 +253,20 @@ Demonstrated proficiency with public communication skills.  Exceptional troubles
 % Publications
 \resheading{Publications, Talks, Community Involvement \& Leadership}
 \begin{itemize}
-	
-% Social WG
 \item
 \ressubheading
-{W3C Social Web Working Group}
-{July 2014 - June 2015}
-{Invited Expert}
+{PDX Node}
+{September 2015 - Present}
+{Organizer \& Volunteer}
 {}
+	
+% Social WG
+%\item
+%\ressubheading
+%{W3C Social Web Working Group}
+%{July 2014 - June 2015}
+%{Invited Expert}
+%{}
 
 % Code for portland
 \item
@@ -273,20 +277,20 @@ Demonstrated proficiency with public communication skills.  Exceptional troubles
 {}
 
 % UO WebRTC thint
-\item
-\ressubheading
-{``Development of an Online Teaching Field Emission SEM''}
-{February 2014}
-{Proceedings of the Oregon Academy of Science}
-{}
+%\item
+%\ressubheading
+%{``Development of an Online Teaching Field Emission SEM''}
+%{February 2014}
+%{Proceedings of the Oregon Academy of Science}
+%{}
 
 % Homebrew Websi te Club
-\item
-\ressubheading
-{Homebrew Website Club}
-{December 2013 - July 2015}
-{Organizer}
-{}
+%\item
+%\ressubheading
+%{Homebrew Website Club}
+%{December 2013 - July 2015}
+%{Organizer}
+%{}
 
 % Puppet
 %
@@ -314,28 +318,28 @@ Demonstrated proficiency with public communication skills.  Exceptional troubles
 {}
 
 % IndieWeb
-\item
-\ressubheading
-{IndieWebCamp}
-{2013,2014,2015 - Present}
-{Participant and Organizer}
-{}
+%\item
+%\ressubheading
+%{IndieWebCamp}
+%{2013,2014,2015 - Present}
+%{Participant and Organizer}
+%{}
 
 % MFS
-\item
-\ressubheading
-{PSU Manufacturing and Fabrication for the Sciences Club}
-{2013 - December 2014}
-{Officer}
-{}
+%\item
+%\ressubheading
+%{PSU Manufacturing and Fabrication for the Sciences Club}
+%{2013 - December 2014}
+%{Officer}
+%{}
 
 % NCUR Paper
-\item
-\ressubheading
-{``Sub-millimeter Positioning and Sensing for Short-Range Gravity Tests"}
-{2011}
-{Proceedings of the 25th National Conference on Undergraduate Research (NCUR)}
-{}
+%\item
+%\ressubheading
+%{``Sub-millimeter Positioning and Sensing for Short-Range %Gravity Tests"}
+%{2011}
+%{Proceedings of the 25th National Conference on Undergraduate Research (NCUR)}
+%{}
 
 % HSU Talk
 %%\item
@@ -350,6 +354,7 @@ Demonstrated proficiency with public communication skills.  Exceptional troubles
 % Open Source
 \resheading{Recent Open Source Contributions}
 \begin{itemize}
+% node learnbook
 \item
 \ressubheading
 {Node Learnbook}
@@ -357,10 +362,10 @@ Demonstrated proficiency with public communication skills.  Exceptional troubles
 {\href{https://github.com/bcomnes/node-learnbook}{github.com/bcomnes/node-learnbook}}
 {io.js gurus approve!}
 \begin{itemize}
-  \resitem
-  {A book about how and where to learn about node and javascript}
+\resitem
+{A book about how and where to learn about node and javascript}
 \end{itemize}
-% SEMterface
+% standard format
 \item
 \ressubheading
 {standard-format}
@@ -370,6 +375,42 @@ Demonstrated proficiency with public communication skills.  Exceptional troubles
 {$\sim38\,000+$ downloads/month}
 \begin{itemize}
     \resitem{Automatically format javascript to conform to \href{https://www.npmjs.com/package/standard}{standard} Javascript Styling rules.}
+\end{itemize}
+
+% sublime standard format
+\item
+\ressubheading
+{Sublime StandardFormat}
+%{2013 - 2014}
+{Python}
+{\href{https://packagecontrol.io/packages/StandardFormat}{packagecontrol.io/packages/StandardFormat}}
+{$\sim550+$ downloads/month}
+\begin{itemize}
+    \resitem{A Sublime Text plugin to autoformat javascript to conform to standard on file save.}
+\end{itemize}
+
+% twitter-video
+\item
+\ressubheading
+{twitter-video}
+{Node.js}
+{\href{https://www.npmjs.com/package/twitter-video}{https://www.npmjs.com/package/twitter-video}}
+{tweeps approved!}
+\begin{itemize}
+\resitem
+{A small module and cli for uploading video to twitters api}
+\end{itemize}
+
+%aredridel/homebrew-iojs
+\item
+\ressubheading
+{aredridel/homebrew-iojs}
+{Ruby}
+{\href{https://github.com/aredridel/homebrew-iojs}{https://github.com/aredridel/homebrew-iojs}}
+{down with barriers to publishing!}
+\begin{itemize}
+\resitem
+{Help maintain a homebrew tap for installing working versions of node/iojs and npm}
 \end{itemize}
 
 \end{itemize}
